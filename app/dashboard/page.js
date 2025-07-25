@@ -1,6 +1,6 @@
 import ButtonLogout from "../components/ButtonLogout";
 import FormNewBoard from "../components/FormNewBoard";
-import { auth } from "@/auth";
+import { auth } from "auth";
 import connectMongo from "libs/mongoose";
 import User from "libs/models/User";
 import Board from "libs/models/Board";
