@@ -1,6 +1,6 @@
 import { redirect } from "next/navigation";
-import connectMongo from "@/libs/mongoose";
-import Board from "@/libs/models/Board";
+import connectMongo from "libs/mongoose";
+import Board from "libs/models/Board";
 
 const getBoard = async (boardId) => {
   await connectMongo();

@@ -1,8 +1,8 @@
 import Link from "next/link";
 import { redirect } from "next/navigation";
 import connectMongo from "libs/mongoose";
-import Board from "@/libs/models/Board";
-import { auth } from "@/auth";
+import Board from "libs/models/Board";
+import { auth } from "auth";
 import CardBoardLink from "@/components/CardBoardLink";
 import ButtonDeleteBoard from "@/components/ButtonDeleteBoard";
 
